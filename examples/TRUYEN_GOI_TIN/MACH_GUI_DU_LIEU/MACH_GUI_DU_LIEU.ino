@@ -1,3 +1,14 @@
+/*thông báo ngày 11/4/2018
+Bài viết này đã cũ ,Thư viện hiện đã được chỉnh sửa để truyền tin an toàn hơn theo link nàyi :
+
+<link bài mới> http://arduino.vn/tutorial/5897-thu-vien-truyen-du-lieu-bat-ky-byte-long-float-double-theo-goi-tin-cho-arduino
+
+Bài viết này được giữ lại dưới dạng tài liệu tham khảo.
+
+
+
+*/
+
 // Tác giả :Thái Sơn - arduino.vn 14/2/2017
 //xem mạch nối (hình ảnh )tại thư mục chứa file này
 //Bạn đang dùng bản nâng cấp 13/6/2017
@@ -6,7 +17,11 @@
 #include "UART_ARDUINO.h"
 UART Gui;
 void setup() {
-  Gui.begin(9600);// baud: 200 -> 250,000.
+  Gui.begin(9600);// baud: 200 -> 250,000. , cổng Serial mặc định RX-TX 0  (cho tất cả các dỏng arduino)
+  //hoặc Gui.begin(9600,Serial1)
+  //              Serial- Serial1- Serial2-Serial3
+  // tương ứng RX-TX 0  -    1    -   2    -  3  trên arduino mega
+  
 
 }
 uint8_t nhiet_do;

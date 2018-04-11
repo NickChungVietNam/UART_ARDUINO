@@ -1,5 +1,14 @@
 
 /*
+Thông báo ngày 11/4/2018 : 
+
+Bài viết này đã cũ ,Thư viện hiện đã được chỉnh sửa để truyền tin an toàn hơn theo link nàyi :
+
+<link bài mới> http://arduino.vn/tutorial/5897-thu-vien-truyen-du-lieu-bat-ky-byte-long-float-double-theo-goi-tin-cho-arduino
+
+Bài viết này được giữ lại dưới dạng tài liệu tham khảo.
+
+
 < Tác giả PhùngThái Sơn, Hà NAM, Việt Nam. Trang web: arduino.vn/NickChung>
 <Mình xin giữ bản quyền tài liệu này, bạn có thể sử dụng tài cho mọi mục đích nhưng cần trích thông tin tác giả, cảm ơn bạn đã đón đọc, hi vọng bài viết thực sự có ích cho bạn!>
 
